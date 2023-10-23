@@ -1,0 +1,239 @@
+body {
+    font-family: 'Delius Unicase', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #37BE93;
+    padding: 10px 20px;
+}
+h1{
+    font-size: 5vw;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    text-align: center;
+}
+.hola, .about{
+    background-color: rgba(250, 235, 215, 0.59);
+}
+
+.about-us {
+    margin-left: 10vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+.con, .contact-image{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.59);
+
+}
+.pan{
+    width: 70vw;
+    height: auto;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.banner img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    max-height: 300px;
+    
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(215, 211, 180, 0.489);
+}
+
+.text {
+    flex: 1;
+    margin-right: 20vw;
+    margin-left: 10vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+}
+p {
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}
+
+.new-products {
+    margin-left: 10vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    text-align: center;
+
+}
+.image img {
+    max-width: 20vw; 
+    padding-right: 10vw;;
+}
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    color: white; 
+    padding: 10px 20px;
+    border-radius: 100%;
+    z-index: 990;
+    cursor: pointer;
+    transition: all 0.3s;
+    
+}
+.wpp{
+    width: 100px;
+    height: 100px;
+}
+.whatsapp-button:hover {
+    background-color: #039c57;
+
+}
+h2{
+    text-align: center;
+}
+.main1 {
+    display: flex;
+    justify-content: space-between; 
+    width: 80%; 
+    margin: 0 auto;
+}
+.main2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin: 20px; 
+    gap: 20px; 
+}
+
+.image-container {
+    width: 30%; 
+    max-height: 50vw;
+    border-radius: 5px;
+    overflow: hidden; 
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.rating {
+    display: flex;
+    align-items: center;
+    background-color: #fff; 
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.user-profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.user-profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.user-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user-info ul li {
+    margin-bottom: 5px;
+    padding-left: 40vw;
+}
+
+.positive-words, .words {
+    padding: 0;
+    padding-left: 4vw;
+}
+
+.rating-stars {
+    display: flex;
+    font-size: 24px;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+.rating {
+    background-color: #E6FFE6;
+}
+
+footer {
+    text-align: center;
+    background-color: #1A9CDD;
+    padding: 10px 0;
+}
+.footer{
+margin-top: 30px;
+}
+footer p {
+    color: white;
+}
+.contact-info {
+    font-size: 16px;
+    margin-top: 10px;
+}
+.contact-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s;
+}
