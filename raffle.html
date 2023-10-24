@@ -23,9 +23,9 @@
             </ul>
         </nav>
     </header>
-    <section class="hola"">
+    <div class="hola">
         <h1>Snowy Cream</h1>
-    </section>
+    </div>
     <div class="whatsapp-button">
         <a href="https://api.whatsapp.com/send?phone=1234567890" target="_blank">
         <img class="wpp" src="/png/wpp.png" alt="Whatsapp"> 
@@ -45,16 +45,17 @@
             <label for="apellido">Last Name:</label> <br>
             <input type="text" id="apellido" name="apellido" required>
             <br>
-            <label for="date">Choose Date:</label> <br>
+            <label for="fecha">Choose Date:</label> <br>
             <input type="date" id="fecha" name="fecha" required>
             <br>
             <label for="metodo-pago">Method of Payment:</label>
             <br>
             <select id="metodo-pago" name="metodo-pago" required>
-            <option value="cash">Cash</option>
-            <option value="credit-card">Credit Card</option>
-            <option value="debit-card">Debit Card</option>
-            </select>
+                <option value="" disabled selected>Select a payment method</option>
+                <option value="cash">Cash</option>
+                <option value="credit-card">Credit Card</option>
+                <option value="debit-card">Debit Card</option>
+            </select>            
             <br>
             <label for="sugerencias">Message (optional):</label> <br>
             <textarea id="sugerencias" name="sugerencias" rows="8" required></textarea>
@@ -64,10 +65,6 @@
         </form>
         </div>
     </div>
-</body>
-    <section class="contact-info">
-       
-    </section>
     <footer>
         <p>Created by: Andrés Felipe Jaramillo</p>
         <div class="contact-info">
