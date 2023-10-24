@@ -312,6 +312,13 @@ input, textarea {
         background-color: #37BE93;
         padding: 10px 20px;
     }
+    .aa, ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color: black;
+    }
     
     .logo {
         margin-bottom: 10px;
@@ -379,6 +386,13 @@ input, textarea {
         align-items: center;
         background-color: #37BE93;
         padding: 10px 20px;
+    }
+    .aa, ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color: black;
     }
     
     .logo {
